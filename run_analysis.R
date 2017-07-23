@@ -56,7 +56,7 @@ mergeData <- mergeData[,2:69]
 ##Change name of activity column to "activityName"
 colnames(mergeData)[1] <- "activityName"
 
-##Upload library reshape2
+##Upload library reshape2 to get the melt and dcast functions
 library(reshape2)
 
 ##Melt Data on all variables measured
