@@ -2,7 +2,7 @@
 title: "CodeBook"
 author: "cponz"
 date: "7/23/2017"
-output: html_document
+output: md_document
 ---
 
 ## Getting and Cleaning Data Assignment
@@ -20,13 +20,13 @@ activity_labels.txt : names of the activities performed by the subjets
 features.txt : names of the variables measured
 
 The observations were divided between train and test data, which were stored in the following files:
-X_train.txt
+X_train.txt,
 X_test.txt
 
 For each of these dataset there are two files giving the activities and subjects for each observation:
-Y_train
-subject_train.txt
-Y_test
+Y_train,
+subject_train.txt,
+Y_test,
 subject_test.txt
 
 All of these files are read into dataframes
@@ -34,8 +34,8 @@ All of these files are read into dataframes
 #Rename the columns
 In order to make it clearer, it is better to rename the columns with descriptive names. Therefore the variables names are replaced with the descriptive names:
 
-Activity_ID for the activities id list
-Subject_ID for the subjects id list
+Activity_ID for the activities id list,
+Subject_ID for the subjects id list,
 Name of each feature for the variable columns in the observation data sets
 
 #Select wanted data
