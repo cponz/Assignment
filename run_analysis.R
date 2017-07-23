@@ -73,4 +73,4 @@ newNames <- gsub("std","StnDev",newNames)
 colnames(finalData) = newNames
 
 ##Print in txt file: tidy.txt
-write.table(finalData, "./tidy.txt")
+write.table(finalData, "./tidy.txt",row.names = FALSE)
